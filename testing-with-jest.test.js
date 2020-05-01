@@ -7,7 +7,7 @@
 
 
 // --------------------1a) Create a test for a function called addThemUp that takes two numbers as arguments and returns the sum.
-
+//change
 describe("addThemUp", () => {
   test("returns the sum of two numbers", () => {
     expect(addThemUp(-10,30)).toEqual(20)
