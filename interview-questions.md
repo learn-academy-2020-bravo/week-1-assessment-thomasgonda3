@@ -60,8 +60,12 @@ Answer the following questions. First, without external resources. Challenge you
 
 Research and define the following terms to the best of your ability.
 
-- React
-- Yarn
-- React State
-- CRUD
-- this
+- React - React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+
+- Yarn - Yarn is new and Open Source JavaScript package manager developed by Facebook. Yarn is fully compatible with the npm registry and can work alongside npm, but it's aim it to be a safer, more secure and more reliable alternative.
+
+- React State - React components has a built-in state object.  The state object is where you store property values that belongs to the component.  When the state object changes, the component re-renders.
+
+- CRUD - CRUD stands for Create, Read, Update and Delete and these are four basic functions to manipulate data in a database.  The CRUD paradigm is common in constructing web applications, because it provides a memorable framework for reminding developers of how to construct full, usable models.
+
+- this - this keyword refers to an object, that object which is executing the current bit of javascript code. In other words, every javascript function while executing has a reference to its current execution context, called this.
