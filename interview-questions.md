@@ -4,55 +4,55 @@ Answer the following questions. First, without external resources. Challenge you
 
 1. What is a function? Why would you use one?
 
-  Your answer:
+  Your answer: A reusable piece of code that takes in different arguments depending on the situation.  
 
-  Researched answer:
+  Researched answer:  A function is a JavaScript procedure—a set of statements that performs a task or calculates a value.
 
 
 
 2. What is the difference between map and filter?
 
-  Your answer:
+  Your answer: Map forces every element in the array to undergo a function, then returns the new array.  Filter returns an array that removes every element in the array that does not pass a specified test.
 
-  Researched answer:
+  Researched answer: filter() returns a subset of the elements from the original array, while . map() produces an array with new, different entries based on the elements in the original array.
 
 
 
 3. What is the difference between console.log() and return?
 
-  Your answer:
+  Your answer: console.log outputs the evaluation of whatever argument is within itself, and does not actually change the state of the program.  When you return, you exit a function and give back an answer.
 
-  Researched answer:
+  Researched answer:  console.log logs the arguments passed to the web console, return will exit a function and also call back the value to whatever invoked the function.
 
 
 
 4. In regards to functions, what is an argument?
 
-  Your answer:
+  Your answer: The variable input that is given when a function is run that makes it reusable.
 
-  Researched answer:
+  Researched answer:  A value that is passed between programs, subroutines or functions.  They are independent items, or variables that contain data or codes.
 
 
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-  Your answer:
+  Your answer:  The driver types all of the code and makes quick edits if he sees a problem.  The passenger directs where the code is headed and also points out any errors in the code he sees.
 
-  Researched answer:
+  Researched answer:  Pair programming is an agile software development technique in which two programmers work together at one workstation. One, the driver, writes code while the other, the observer or navigator, reviews each line of code as it is typed in. The two programmers switch roles frequently.
 
 
 
 6. What is TDD? Describe the work flow associated with TDD.
 
-  Your answer:
+  Your answer:  It's when you write tests for your code so that you know it works within several different scenarios.
 
-  Researched answer:
+  Researched answer:  The work flow is write the test, fail the test, write codes, test passes, then refactor your code.
 
 
 
 7. What is something we did in class this week you found helpful?  
 
-  Your answer:
+  Your answer:  I thought the pair programming was really fun, I didn't know how it would feel before doing it but I really enjoyed myself when going through.  I feel like when we were going through lectures and I wanted to interject sometimes everyone would just talk so quickly I didn't really have a chance but when I posted in the chat my question was usually answered so that was pretty useful.
 
 
 
@@ -60,8 +60,12 @@ Answer the following questions. First, without external resources. Challenge you
 
 Research and define the following terms to the best of your ability.
 
-- React
-- Yarn
-- React State
-- CRUD
-- this
+- React - React is a JavaScript library for building user interfaces. It is maintained by Facebook and a community of individual developers and companies. React can be used as a base in the development of single-page or mobile applications.
+
+- Yarn - Yarn is new and Open Source JavaScript package manager developed by Facebook. Yarn is fully compatible with the npm registry and can work alongside npm, but it's aim it to be a safer, more secure and more reliable alternative.
+
+- React State - React components has a built-in state object.  The state object is where you store property values that belongs to the component.  When the state object changes, the component re-renders.
+
+- CRUD - CRUD stands for Create, Read, Update and Delete and these are four basic functions to manipulate data in a database.  The CRUD paradigm is common in constructing web applications, because it provides a memorable framework for reminding developers of how to construct full, usable models.
+
+- this - this keyword refers to an object, that object which is executing the current bit of javascript code. In other words, every javascript function while executing has a reference to its current execution context, called this.
